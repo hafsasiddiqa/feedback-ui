@@ -21,7 +21,7 @@ A Feedback UI built with Next.js and TypeScript that allows users to provide fee
 
 1.  Clone the Repository
 
-* git clone https://github.com/your-username/feedback-ui.git
+* git clone https://github.com/hafsasiddiqa/feedback-ui.git
 
 2.  Install Dependencies 
 
