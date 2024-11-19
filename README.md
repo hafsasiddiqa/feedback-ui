@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Feedback UI
 
-## Getting Started
 
-First, run the development server:
+A Feedback UI built with Next.js and TypeScript that allows users to provide feedback interactively. This project uses TailwindCSS for styling and features components such as a progress indicator, star rating, experience rating, and a checklist for detailed feedback.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Feedback Title: Displays "Feedback UI" prominently at the top.
+* Progress Indicator: Tracks the feedback flow (Audio, Video, Performance).
+* Star Rating: Allows users to rate services from "Bad" to "Good".
+* Experience Rating: Provides a scale (1–5) for overall experience.
+* Checklist: Collects detailed information about what went wrong.
+* Font Choice: The design uses a clean sans-serif font for a modern and professional look.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Next.js 15: Framework for building a fast and scalable front end.
+* TypeScript: Ensures type safety and improved development experience.
+* TailwindCSS: For responsive and customizable styling.
+* Sans-Serif Font: Provides a clean and legible typography style for the UI.
 
-## Learn More
+1.  Clone the Repository
 
-To learn more about Next.js, take a look at the following resources:
+* git clone https://github.com/your-username/feedback-ui.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2.  Install Dependencies 
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* npm install
 
-## Deploy on Vercel
+3.  Run the Development Server
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Visit the application in your browser at http://localhost:3000.
+
+## Usage
+
+1.  Navigate to the homepage to interact with the Feedback UI.
+2.  Provide feedback using the star ratings, numeric ratings, and checkboxes.
+3.  Customize or extend the feedback options as per your requirements.
+
+## Styling Details
+
+*  The UI design uses a sans-serif font to maintain a clean and minimalist aesthetic.
+*  TailwindCSS classes are used throughout the project for consistent, responsive, and easy-to-customize styling.
+*  The background color is a greyish-black (#1a202c) for a modern dark theme, ensuring focus on the feedback components.
+
+## Customization
+
+*  Styling: Modify globals.css or use Tailwind classes within components for style updates.
+*  Font: You can replace the sans-serif font by updating the Tailwind fontFamily configuration.
+*  Components: Extend or replace components in the components/ folder.
+*  Theming: Add light/dark mode by integrating Tailwind's dark mode functionality.
+
+## Future Enhancements
+
+*  Add a backend integration (e.g., Firebase) to store user feedback.
+*  Implement submission flow with a confirmation message.
+*  Add accessibility features to improve usability.
+
+
+Feel free to fork, modify, and improve the project. Contributions and feedback are always welcome! 😊
+
+
+
